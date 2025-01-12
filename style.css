@@ -1,0 +1,52 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.left-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin-left: 2em;
+}
+
+input.search {
+    width: 40em;
+    padding: 1em;
+    border-radius: 3em;
+    border: none;
+    background-color: rgb(236, 236, 236);
+    font-size: 1em;
+}
+
+div.right-side {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+img.profile-image {
+    width: 3em;
+    height: 3em;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+img.logo {
+    cursor: pointer;
+}
+
+i {
+    font-size: 1.5em;
+}
+
+i:hover {
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
